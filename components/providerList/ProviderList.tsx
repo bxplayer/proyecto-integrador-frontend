@@ -10,7 +10,7 @@ interface Provider {
   };
   imageSrc?: string;
   information?: string;
-  price: Number;
+  price: number;
 }
 
 interface ProviderListProps {

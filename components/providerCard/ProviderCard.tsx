@@ -12,7 +12,7 @@ interface ProviderCardProps {
   rating: number;
   location: string;
   promotions: string;
-  price: string;
+  price: number;
   category : string;
 }
 
