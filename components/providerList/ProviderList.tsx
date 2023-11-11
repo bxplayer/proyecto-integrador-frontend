@@ -26,10 +26,7 @@ const ProviderList: React.FC<ProviderListProps> = ({ providers }) => {
             <ProviderCard
               name={provider.name}
               category={provider.category?.name}
-              price={provider.price}
-              imageSrc={provider.imageSrc || "https://leekduck.com/assets/img/events/events-default.jpg" }
-              description={provider.information}
-            />
+              price={provider.price} images={[]} rating={0} location={''} promotions={''}            />
           </Box>
         </Grid>
       ))}
